@@ -8,7 +8,7 @@ Group:		Development/Tools
 Source0:	http://downloads.sourceforge.net/ccide/%{name}-%{version}.tar.gz
 # Source0-md5:	fdbc8822b1d79ebc56939d47b36244c6
 URL:		http://ccide.sourceforge.net/
-BuildRequires:	gettext-devel >= 0.17
+BuildRequires:	gettext-tools >= 0.17
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
