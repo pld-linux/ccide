@@ -1,0 +1,23 @@
+--- ccide-0.6.6.orig/src/ccide.pod.in
++++ ccide-0.6.6/src/ccide.pod.in
+@@ -439,6 +439,8 @@
+ the latest version before reporting bugs.
+ 
+ 
++=back
++
+ =head1 RESTRICTIONS
+ 
+ There can no more than 32 conditions or 2048 actions or 256 rules
+@@ -471,9 +473,9 @@
+ 
+ Thomas W. Young, ccide@twyoung.com
+ 
+-==head1 COPYRIGHT 
++=head1 COPYRIGHT
+ 
+-Copyright © 2002-2012, Thomas W. Young, The CCIDE Project, ccide@twyoung.com.
++Copyright (C) 2002-2012, Thomas W. Young, The CCIDE Project, ccide@twyoung.com.
+ Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation
+ License, Version 1.2 or any later version published by the Free Software Foundation; with the Invariant Sections being
+ "GNU General Public License" and "Funding Free Software", the Front-Cover texts being (a) (see below), and with the Back-

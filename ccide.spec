@@ -2,11 +2,12 @@ Summary:	C Language Decision Table Code Generator
 Summary(pl.UTF-8):	Generator kodu tablic decyzyjnych w języku C
 Name:		ccide
 Version:	0.6.6
-Release:	2
+Release:	3
 License:	GPL v3+
 Group:		Development/Tools
 Source0:	http://downloads.sourceforge.net/ccide/%{name}-%{version}.tar.gz
 # Source0-md5:	fdbc8822b1d79ebc56939d47b36244c6
+Patch0:		%{name}-pod-fixes.patch
 URL:		http://ccide.sourceforge.net/
 BuildRequires:	gettext-tools >= 0.17
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -19,6 +20,7 @@ Generator kodu tablic decyzyjnych w języku C.
 
 %prep
 %setup -q
+%patch -P0 -p1
 
 %build
 %configure
